@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,17 +10,58 @@
 </head>
 
 <body>
-    <form name="myForm" action="" method="">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname">
+    <div class="form">
+        <form name="myForm" action="" method="">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
 
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname">
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname">
 
-        <label for="picture">Зураг: </label>
-        <input type="image" src="#" alt="" width="48" height="48">
+            <!-- <label for="picture">Зураг: </label>
+            <input type="image" src="./img/bg2.jpg" alt="" width="48" height="48"> -->
+            <label for="img">Зураг оруулах:</label>
+            <input type="file" id="img" name="img" accept="image/*">
+            <input type="button" onclick="formSubmit()" value="Илгээх">
+        </form>
 
-        <input type="button" onclick="formSubmit()" value="Илгээх">
-      </form>
+        <form name="myForm" action="" method="">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname">
+
+            <label for="img">Зураг оруулах:</label>
+            <input type="file" id="img" name="img" accept="image/*">
+            <input type="button" onclick="formSubmit()" value="Илгээх">
+        </form>
+
+        <form name="myForm" action="" method="">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname">
+
+            <label for="img">Зураг оруулах:</label>
+            <input type="file" id="img" name="img" accept="image/*">
+            <input type="button" onclick="formSubmit()" value="Илгээх">
+        </form>
+
+        <form name="myForm" action="" method="">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname">
+
+            <label for="img">Зураг оруулах:</label>
+            <input type="file" id="img" name="img" accept="image/*">
+            <input type="button" onclick="formSubmit()" value="Илгээх">
+        </form>
+    </div>
+
 </body>
+
 </html>

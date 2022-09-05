@@ -3,8 +3,10 @@
     padding: 0;
 }
 
-.myForm{
-    display: inline-block;
-    margin: 20px;
-    padding: 20px;
+.form{
+    display: block;
+    text-align: center;
+    padding: 30px;
+    margin: 15px;
+    background-color: antiquewhite;
 }
